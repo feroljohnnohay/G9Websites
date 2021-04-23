@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+
+/* Custom */
+
+:root{
+    --ff-primary: 'Noto Sans JP', sans-serif;
+    /* -- */
+    --fs-secondary-header: 1.8rem; /* Secondary header */
+    --fs-primary: .85rem; /* Paragraph */
+    --fs-main: 40px; /* Main header */
+    /* -- */
+    --clr-fontclr: white;
+}
+
+/* --- */
+@media screen and (max-width:1000px) {
+    :root{
+        --fs-secondary-header: 1.7rem;
+        --fs-main: 35px;
+    }
+}
+
+/* General */
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: block;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-primary);
+    color: var(--clr-fontclr);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    display: block;
+    background: url("images/kabanata-21/background-img.jpg") no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.7em;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: block;
+}
+span{
+    white-space: nowrap;
+    display: block;
+}
+/* --- */
+
+/* Menu */
+.brand{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    top: 30px;
+}
+.brand h1{
+    color: white;
+    white-space: nowrap; 
+    line-height: 1.2em;
+}
+.brand h1 span.one-line{
+    color: #ff9500;
+    display: inline;
+}
+.nav{
+    background-color: #2f455c;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    left: 10%;
+    z-index: 1000 !important;
+    /* -- */
+    height: 100vh;
+    max-height: 100vh !important;
+    width: 20%;
+    max-width: 80vw !important;
+    min-width: 45px !important;
+    /* -- */
+    outline: none;
+    overflow-x: hidden !important;
+    overflow-y: auto;
+    position: fixed !important;
+    will-change: transform;
+    text-align: center;
+}
+/* .cont{
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box{
+    background: -webkit-linear-gradient(left top, #1DCDFE 0%, #21D0B2 100%);
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+} 
+.navigation-img{
+    margin-top: 60px;
+} */
+.header-nav{
+    margin: 40px 0px 60px 0px;
+}
+.nav li a {
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    transition: all 0.5s;
+    border-top: 2px solid white;
+}
+.nav li:hover a{
+    background: white;
+    color: #2f455c;
+}
+.nav li {
+    display: block;
+}
+ul li {
+    display: inline-block;
+}
+.nav li:last-child a {
+    border-bottom: 2px solid #fff;
+}
+.nav-list{
+    margin-bottom: 50px;
+}
+.con{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* -- */
+@media screen and (max-width:1280px) and (min-width:846px){
+    .nav{
+        width: 25%;
+    }
+}
+@media screen and (max-width:1680px){
+    .nav{
+        left: 5%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .nav{
+        left: 0%;
+    }
+}
+@media (min-width:1200px){
+    .con{
+        max-width: 1140px;
+    }
+}
+@media (min-width:992px){
+    .con{
+        max-width: 960px;
+    }
+}
+@media (min-width:768px){
+    .con{
+        max-width: 720px;
+    }
+}
+@media (min-width:576px){
+    .con{
+        max-width: 540px;
+    }
+}
+/* TYPOGRAPHY */
+.header-par p, .second-section p{
+    text-align: justify;
+}
+p{
+    margin: 25px;
+    font-size: 16px;
+}
+.thin-font p{
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.par-last{
+    text-align: start;
+    width: 100%;
+}
+.main-header{
+    font-size: 2.15rem;
+    color: white;
+}
+.line-dec {
+    width: 200px;
+    height: 3px;
+    background-color: #2f455c;
+    margin: 20px auto;
+}
+.section-header{
+    font-weight: 600;
+    font-size: var(--fs-secondary-header);
+    letter-spacing: 0.25px;
+    margin: 0;
+}
+.italic-font{
+    margin: 0;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+}
+.main-header{
+    line-height: 1.2;
+}
+.sec-main{
+    font-size: var(--fs-main);
+}
+.tauhan-font{
+    font-weight: 600;
+    font-size: var(--fs-main);
+    background: rgba(0, 0, 0, 0.493);
+    padding: 10px;
+    margin: auto 0px;
+    width: 100%;
+    text-align: center;
+}
+h3.section-header{
+    margin: 5px auto;
+}
+
+/* -- */
+@media screen and (max-width: 1680px){
+    .container{
+        width: 65%;
+        right: 5%;
+        left: 30%;
+    }
+}
+@media (min-width:1200px){
+    .section{
+        max-width: 1140px;
+    }
+}
+@media (min-width:992px){
+    .section{
+        max-width: 960px;
+    }
+}
+@media (min-width:768px) {
+    .section{
+        max-width: 720px;
+    }
+}
+@media (min-width:576px){
+    .section{
+        max-width: 540px;
+    }
+}
+/* -- */
+.container{
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+}
+.container-last{
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+.section{
+    padding-top: 70px;
+}
+.section {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 1.7;
+}
+/* --- */
+.second-section{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Quote */
+
+/* Simple Quote at Sisa Section */
+blockquote.simple {
+    background: #f9f9f911;
+    border-left: 5px solid rgb(204, 204, 204);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+}
+blockquote.simple:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 3.85em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote.simple:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 3.85em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    transform: scaleX(-1);
+    vertical-align: -0.5em;
+}
+blockquote.simple p {
+    display: inline;
+}
+/* End Simple Quote at Sisa Section */
+
+/* Repleksyon */
+#box-rep{
+	font-family:'Raleway', sans-serif;
+    color: white;
+    text-align: start;
+}
+#box-rep h2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bg{
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    margin: auto 20px;
+    box-shadow: 0px 0px 30px 0px #494949;
+}
+.pins{
+    background-image: url("images/pins.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    display: inline-block;
+}
+.pins-2{
+    background-image: url("images/pins.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+}
+/* -- */
+
+/* Button */
+button{
+    width: 40%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.30);
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+}
+button:hover{
+    color: white;
+    background: #005870;
+    transition: 0.2s ease all;
+}
+.btn{
+    display: block;
+}
+
+/* Tauhan */
+
+.sub-title{
+    margin-top: 40px;
+}
+
+video{
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin: 15px;
+}
+.span-box{
+    display: block;
+    border: 1px solid black;
+    position: relative;
+    width: 20px;
+}

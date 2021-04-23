@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Noli Me Tangere Websites</title>
+        <style>
+            :root {
+                --blue: #3498db;
+                --dark-blue: #2980b9;
+                --background: #081118;
+                --grey: #333;
+                --light-grey: #3b3b3b;
+            }
+
+            * {
+                font-family: sans-serif;
+                box-sizing: border-box;
+                max-width: 500px;
+                margin: auto;
+            }
+
+            body{
+                display: inline-block;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+
+            #welcome h1{
+                display: inline-block;
+                font-size: 2em;
+                margin-block-start: 0.67em;
+                margin-block-end: 0.67em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+            }
+
+            
+            .menu {
+                width: 20rem;
+                border-radius: 0.2rem;
+                overflow: hidden;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .menu-item {
+                list-style: none;
+                overflow: hidden;
+            }
+
+            .cta {
+                display:block;
+                padding: 1rem 1.2rem;
+                background: var(--blue);
+                color: white;
+                position: relative;
+            }
+
+            .cta::before {
+                content: '';
+                position: absolute;
+                width: 1rem;
+                height: 1rem;
+                background: var(--blue);
+                left: 1.5rem;
+                bottom: -0.5rem;
+                transform: rotate(45deg);
+            }
+
+            .cta i{
+                margin-right: 1rem;
+            }
+
+            .menu-item_sub{
+                background: var(--grey);
+                overflow: hidden;
+                transition: max-height 0.3s;
+                max-height: 0;
+            }
+
+            .menu-item_sub a {
+                display: block;
+                padding: 1rem 1.6rem;
+                color: white;
+                font-size: 0.9rem;
+                position: relative;
+                border-bottom: 1px solid var(--light-grey);
+            }
+
+            .menu-item_sub a::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 0.4rem;
+                height: 100%;
+                background: var(--blue);
+                transform: translatex(-0.4rem);
+                transition: 0.3s;
+                opacity: 0;
+            }
+            .menu-item_sub a:hover::before {
+                opacity: 1;
+                transform: translatex(0);
+            }
+
+            .menu-item:target .menu-item_sub {
+                max-height: 100em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="welcome">
+            <h1>Welcome!!!</h1>
+            <h3>Here are some of the websites created by Grade 9 
+                Students of Fame Academy of Science and Technology</h3>
+        </div>
+        <div id="menu">
+            <li class="menu-item" id="Curie">
+                <a href="#Curie" type="button" class="cta">
+                    <i>Curie</i>
+                </a>
+                    <div class = "menu-item_sub">
+                    <a href="Curie - Group 1/Homepage.html"> Group 1 </a>
+                    <a href="Curie - Group 2/Homepage.html"> Group 2 </a>
+                    <a href="Curie - Group 3/home.html"> Group 3 </a>
+                    <a href="Curie - Group 4/new/index.html"> Group 4 </a>
+                    <a href="Curie - Group 5/home.html"> Group 5 </a>
+                    </div>
+            </li>
+
+            <li class="menu-item" id="Galileo">
+                <a href="#Galileo" type="button" class="cta">
+                    <i>Galileo</i>
+                </a>
+                    <div class = "menu-item_sub">
+                    <a href="Galileo - Group 1/index.html"> Group 1 </a>
+                    <a href="Galileo - Group 2/HOMEPAGE.css"> Group 2 </a>
+                    <a href="Galileo - Group 3/Website.html"> Group 3 </a>
+                    <a href="Galileo - Group 4/Home.html"> Group 4 </a>
+                    <a href="Galileo - Group 5/NoliMeTangere.html"> Group 5 </a>
+                    </div>
+            </li>
+
+            <li class="menu-item" id="Lavoisier">
+                <a href="#Lavoisier" type="button" class="cta">
+                    <i>Lavoisier</i>
+                </a>
+                    <div class = "menu-item_sub">
+                    <a href="Lavoisier - Group 1/Group1_html/Main Page.html"> Group 1 </a>
+                    <a href="Lavoisier - Group 2/Group 2_LAVOISIER.html"> Group 2 </a>
+                    <a href="Lavoisier - Group 3/index.html"> Group 3 </a>
+                    <a href="Lavoisier - Group 4/hp.html"> Group 4 </a>
+                    <a href="Lavoisier - Group 5/main/main.html"> Group 5 </a>
+                    </div>
+            </li>
+
+            <li class="menu-item" id="Mendeleev">
+                <a href="#Mendeleev" type="button" class="cta">
+                    <i>Mendeleev</i>
+                </a>
+                    <div class = "menu-item_sub">
+                    <a href="Mendeleev - Group 1/index.html"> Group 1 </a>
+                    <a href="Mendeleev - Group 2/Home Page.html"> Group 2 </a>
+                    <a href="Mendeleev - Group 3/SalibioHome.html"> Group 3 </a>
+                    <a href="Mendeleev - Group 4/Home.html"> Group 4 </a>
+                    <a href="Mendeleev - Group 5/HOME.html"> Group 5 </a>
+                    </div>
+            </li>
+        
+        </div>
+
+    </body>
+</html>

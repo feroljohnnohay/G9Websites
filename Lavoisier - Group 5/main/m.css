@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>CSS Template</title>
+
+<style>
+{
+  box-sizing: border-box;
+  font-family: 'New Tegomin', serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'New Tegomin', serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #b8926b;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #d3bfa6;
+}
+
+.content {
+  background-color: #d3bfa6;
+  padding: 200px 50px; 
+}
+
+.footer {
+  background-color: #a39885;
+  padding: 14px 16px;
+}
+</style>
+</head>
+</html>
+
+<body>

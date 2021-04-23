@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet Ms';
+  }
+  
+  .active {
+    background: linear-gradient(45deg, rgba(255, 255, 0, 0.774), orange)
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Trebuchet Ms';
+    margin: 0;
+  }
+
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(223, 162, 31);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2e2e2e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Trebuchet Ms';
+  }
+  
+  .dropdown-content a:hover {
+    background-color:  rgb(223, 162, 31);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+   .container{
+     margin-top: 8%;
+     margin-left: 15%;
+   }
+
+    .container img {
+      float: left;
+      
+      margin: 2px 50px 20px 25px;
+
+    }
+
+    .text{
+        font-family: 'Trebuchet MS';
+        font-size:20pt;
+        margin-right: 4%;
+        margin-left: 0%;
+    
+      }
+      
+
+      .st {
+        font-family: 'Trebuchet MS';
+        font-size: 14pt;
+        text-indent: 4%;
+        margin-right: 20%;
+        
+        }
+
+        footer{
+          background-color: rgb(0, 0, 0);
+          margin-top: 30%;
+          padding: 10px;
+          margin-bottom: 0%;
+          
+      }
+      
+      .foot{
+          font-family: 'Trebuchet Ms';
+          font-size: 12pt;
+          color: white;
+          position: relative;
+      }
+      
+      @media only screen and (max-width:700px){
+        .container img{
+          display: none;
+        }
+      
+        .st{
+          margin: 9%;
+          text-align: left;
+        }
+      
+        .text{
+          text-align: center;
+        }
+
+        footer{
+          margin-top: 40%;
+        }
+      }
+      

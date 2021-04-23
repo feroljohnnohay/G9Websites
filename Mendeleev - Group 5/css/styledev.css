@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding:  12px 0; 
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover {
+    color: #000;
+}
+#sideNav{
+    width: 170px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    transition: 0.5s;
+    background-color: rgb(223, 230, 223);}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #9f9fa0;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 880px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+#sandoval{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 60px;
+    color:#000000 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sandoval-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.sandoval{
+    flex-basis: 50%;
+}
+.sandoval-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.sandoval-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.sandoval h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.sandoval-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.sandoval-text p{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: start;
+    text-indent: 40px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 880px){
+    .sandoval{
+        flex-basis: 100%;
+    }
+    .sandoval-img{
+        flex-basis: 100%;
+    }
+    .sandoval-img img{
+        width: 100%;
+    }
+}
+#lualhati{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 60px;
+    color:#000000 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.lualhati-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.lualhati{
+    flex-basis: 50%;
+}
+.lualhati-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.lualhati-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.lualhati h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.lualhati-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.lualhati-text p{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: start;
+    text-indent: 40px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 880px){
+    .lualhati{
+        flex-basis: 100%;
+    }
+    .lualhati-img{
+        flex-basis: 100%;
+    }
+    .lualhati-img img{
+        width: 100%;
+    }
+}
+
+#acuzar{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 60px;
+    color:#000000 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+.acuzar-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.acuzar{
+    flex-basis: 50%;
+}
+.acuzar-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.acuzar-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.acuzar h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.acuzar-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.acuzar-text p{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: start;
+    text-indent: 40px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 880px){
+    .acuzar{
+        flex-basis: 100%;
+    }
+    .acuzar-img{
+        flex-basis: 100%;
+    }
+    .acuzar-img img{
+        width: 100%;
+    }
+}
+
+#andes{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 60px;
+    color:#000000 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+.andes-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.andes{
+    flex-basis: 50%;
+}
+.andes-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.andes-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.andes h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.andes-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.andes-text p{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: start;
+    text-indent: 40px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 880px){
+    .andes{
+        flex-basis: 100%;
+    }
+    .andes-img{
+        flex-basis: 100%;
+    }
+    .andes-img img{
+        width: 100%;
+    }
+}
+
+#deleon{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 60px;
+    color:#000000 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+.deleon-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.deleon{
+    flex-basis: 50%;
+}
+.deleon-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.deleon-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.deleon h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.deleon-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.deleon-text p{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: start;
+    text-indent: 40px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 880px){
+    .deleon{
+        flex-basis: 100%;
+    }
+    .deleon-img{
+        flex-basis: 100%;
+    }
+    .deleon-img img{
+        width: 100%;
+    }
+}

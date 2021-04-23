@@ -1,0 +1,108 @@
+*{
+box-sizing: border-box; 
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+.NaBa{
+	
+	width: 100%;
+	height: 70px;
+	background-color: #282828;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+
+a:hover{
+	color: #F0c330;
+	transition: 0.5s;
+}
+
+.logo img{
+	float: left;
+	width: 75px;
+	height: auto;
+	margin-left: 5px;
+}
+#content[role="main"]{
+    text-align: center;
+    margin: 20px auto 0;
+    margin-top: 50px;
+    padding: 24px 0 0 0;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    width: 1020px;
+    height: 1500px;
+    background-color: #FFF;
+    box-shadow: 0 0 25px rgb(26, 26, 26);
+    background-image: url(../images/bgd.jpg);
+    background-size: cover;
+    background-position: center;
+	padding: 0 0 75px 0;
+    font-size: 20px;
+}
+
+.box {
+            background: rgb(164, 147, 117);opacity: 80%;
+          backdrop-filter: blur(3px);
+            height: 80%;
+            width: 100%;
+            margin: 0px;
+            margin-right: 10%;
+}
+
+.ha {
+    height: 210px;
+    width: 100%;
+    background-image: url(../images/ph.jpg);
+    background-size: cover;
+
+  
+}
+
+.po h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial;
+    margin: 0 0 30px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+
+.oi {
+ margin-top: 45px;
+}
+
+.content{
+    font-size: 1.18em;
+    line-height: 1.55;
+    padding: 0 45px 0 45px;
+    text-indent: 0.5%;
+}

@@ -1,0 +1,69 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+    background: url(../Images/h.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container{
+    height: 60vh;
+    width: 25%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+  }
+  .img{
+    height: 120px;
+    width: 120px;
+    background: url(../Images/andrie.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container h1{
+    color: white;
+    margin-top: 70px;
+    font-size: 25px;
+  }
+  .container h2{
+    color: white;
+    font-size: 20px;
+  }
+  .container p{
+    color: white;
+    margin-top: 40px;
+   
+  }
+  .container li{
+    color: white;
+   
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+   color: rgb(204, 201, 201);
+  }
+  
+  .previous {
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+    float: left;
+  }
+  
+ 
+  
+  

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI';
+    background-image: url(../images/bkgd.jpg);
+    color: black;
+	height: 800px;
+}
+
+.NaBa{
+	
+	width: 100%;
+	height: 70px;
+	background-color: #282828;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+
+a:hover{
+	color: #F0c330;
+	transition: 0.5s;
+}
+
+.logo img{
+	float: left;
+	width: 75px;
+	height: auto;
+	margin-left: 5px;
+}
+
+.box{
+    display: grid;
+    grid-template-areas: 
+    'main right-top'
+    'main right-bot';
+    grid-gap: 20px;
+}
+
+.main{
+    grid-area: main;
+    background-image: url(../images/im.jpg);
+    /*padding: 1.3rem;*/
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.title{
+    text-transform: uppercase;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h4{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.header{
+    letter-spacing: 4px;
+}
+
+/*.prof{
+    padding: 1.3rem;
+}*/
+
+.name{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.name-info{
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.right-top{
+    grid-area: right-top;
+    background-image: url(../images/back.jpg);
+    padding: 1.9rem;
+	width: 700px;
+	/*margin-top: 420px;*/
+	font-size: 22px;
+}
+
+.right-bot{
+    grid-area: right-bot;
+    background-image: url(../images/back.jpg);
+    padding: 1.3rem;
+	width: 700px;
+	font-size: 22px;
+}
+
+.text{
+	padding: 10px 10px 10px 10px;
+}
+
+.reasons{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}

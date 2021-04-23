@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.sub-header {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(73, 74, 82, 0.7),rgba(73,74,82,0.7)),url(dr.\ jose\ rizal.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 170px;
+    height: 6vh;
+}
+.navigation {
+    flex: 1;
+    text-align: right;
+}
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navigation ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: sienna;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navigation ul li:hover::after {
+    width: 100%;
+}
+.sub-header h1 {
+    font-size: 90px;
+    text-align: center;
+    color: rgb(207, 205, 205);
+}
+.author {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.author .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.author .col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.author .col img {
+    width: 100%;
+    display: inline-block;
+}
+.author .col h1 {
+    padding-top: 0;
+    text-align: right;
+}
+.author .col p {
+    padding: 15px 0 25px;
+    text-align: right;
+}
+.bottom {
+    border-width: 3px;
+    border-style: double;
+}
+hr {
+    border-width: 10px;
+    border-style: solid;
+    color: lightsalmon;
+}
+.nobela {
+    margin-top: 5%;
+}
+.nobela .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nobela .col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.nobela .col img {
+    margin-left: 120px;
+    width: 80%;
+    height: 65vh;
+    display: inline-block;
+}
+.nobela .col h1 {
+    padding-top: 0;
+    margin-right: 120px;
+}
+.nobela .col p {
+    padding: 15px 0 25px;
+    margin-right: 120px;
+}
+.sub-footer {
+    height: 10vh;
+    width: 100%;
+    background-image: url(brown.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}

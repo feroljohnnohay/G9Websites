@@ -1,0 +1,155 @@
+*{
+              margin:0;
+              padding:0;
+              border:0;
+              outline:0;
+              font-size: 100%;
+              vertical-align: baseline;
+}
+
+         body {
+              background-image: url(kbg/background.jpg);
+              }
+        
+    
+        .message {
+              margin: 13px auto 0;
+              padding: 24px 0 0 0;
+              width: 1200px;
+              background-image: url(kbg/brown.jpg);
+              background-size: cover;
+              
+              box-shadow: 0 0 25px rgb(26, 26, 26);
+             }  
+
+        p{
+              text-indent: 111px;
+              font-size: 25px;
+              font-family:'Tillana', cursive;
+              text-align: left;
+              line-height: 1.55;
+              padding: 0 155px 75px 125px;
+              margin-top: 45px;
+              margin-bottom: auto;
+             }
+        
+        .footer{
+            
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image:url(kbg/footer.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    
+        }
+       
+       h1{
+       background-image: url(kbg/nolimetangere.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       padding: 35px 0 0 0;
+       height:150px;
+       width:100%;
+       }
+        
+        h2 {
+        
+        text-align: center;
+        font-size: 65px;
+        font-family: arial;
+        margin: 0 0 30px;
+        font-family: 'Arizonia', cursive;
+        line-height: 2;
+        
+        }
+       
+       h3{
+       text-align:center;
+       text-indent: 25px;
+       color:gold;
+       font-size: 50px;
+       font-family: 'Bowlby One SC', cursive;
+       padding: 35px 0 0 0;
+       -webkit-text-stroke-color:black;
+       -webkit-text-stroke-width: 2px;
+       text-shadow: 2px 2px 3px gray;
+       height:120px;
+       width:100%;
+       
+       }
+       .menu-bar
+       {
+       background: #8b7355;
+       text-align: center;
+       } 	
+       
+       .menu-bar ul
+       {
+       display: inline-flex;
+       list-type: none;
+       color: #fff;
+       }
+       
+       .menu-bar ul li
+       {
+       width:120px;
+       margin: 15px;
+       padding: 5px;
+       }
+       
+       .menu-bar ul li a
+       {
+       text-decoration: none;
+       color: #fff;
+       } 
+       
+       .active, .menu-bar ul li:hover
+       {
+       background: wheat;
+       border-radius: 5px;	
+       } 
+       
+       .menu-bar .fa
+       {
+       margin-right: 8px;
+       }
+       
+       .sub-menu-1
+       {
+       display:none;
+       }
+       
+       .menu-bar ul li:hover .sub-menu-1
+       {
+       display:block;
+       position:absolute;
+       background-color: wheat;
+       
+       }
+       
+       .menu-bar ul li:hover .sub-menu-1 ul
+       {
+       display: block;
+      
+       }
+       
+       .menu-bar ul li:hover .sub-menu-1 ul li
+       {
+       width: 150px;
+       padding: 10px;
+       border-bottom: 1px dotted #fff;
+       background: transparent;
+       }
+       
+       .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+       {
+       border-bottom:none;
+       }
+       
+       .menu-bar ul li:hover .sub-menu-1 ul li:hover
+       {
+       color: wheat;
+       } 

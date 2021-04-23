@@ -1,0 +1,64 @@
+﻿
+.clearfix {
+    overflow: auto;
+    margin-left: 5%;
+}
+
+.img2 {
+    margin-left: 165px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 0px 65px 0px 0px;
+}
+
+.one {
+    margin-top: 155px;
+    font-family: 'Trebuchet Ms';
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.p2 {
+    margin: 20px;
+    font-family: 'Trebuchet Ms';
+    font-size: 14pt;
+    margin-right: 25%;
+    margin-left: 10%;
+    
+}
+
+/* Footer */
+footer{
+    background-color: rgb(0, 0, 0);
+    margin-top: 35%;
+    padding: 10;
+    float: none;
+    padding: 10px;
+}
+
+.foot{
+    font-family: 'Trebuchet Ms';
+    font-size: 12pt;
+    color: white;
+    position: relative;
+}
+
+@media only screen and (max-width:700px){
+    .clearfix img{
+      display: none;
+    }
+  
+    .one, .p2{
+      margin: 9%;
+    }
+  
+    .one{
+      text-align: center;
+    }
+
+    footer{
+        margin-top: 50%;
+    }
+  }

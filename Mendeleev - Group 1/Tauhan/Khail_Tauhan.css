@@ -1,0 +1,144 @@
+*
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.title
+{
+	height:125px;
+	width:100%;
+	background-color: wheat;
+	border-bottom: black;
+	border-style: double;
+}
+
+.title h1
+{
+	text-align: center;
+	font-size: 50px;
+	font-family: arial;
+	padding: 35px 0 0 0;
+	text-shadow: 5px 5px white;
+}
+.img-karakter
+{
+	width: 200px;
+	height: 200px;
+} 
+.pamagat
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: arial;
+	margin: 0 0 30px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	line-height: 2;
+	text-shadow: 3px 3px white;
+}
+
+.katawan
+{
+	text-indent: 25px;
+	font-size: 1.35em;
+	line-height: 1.5;
+	padding: 0 155px 75px 125px;
+	margin-top: 10px;
+}
+
+.indent
+{
+	margin-top: 51px;
+}
+
+.paper
+{
+	margin: 13px auto 0;
+	padding: 24px 0 0 0;
+	width: 80%;
+	background-image: url(kbg/bg_2.jpg);
+	box-shadow: 0 0 25px rgb(26, 26, 26);
+}
+
+.main
+{
+	background-image: url(kbg/bg_8.jpg);
+}	
+.menu-bar
+{
+	background: #8b7355;
+	text-align: center;
+} 	
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-type: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width:120px;
+	margin: 15px;
+	padding: 5px;
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+} 
+
+.active, .menu-bar ul li:hover
+{
+	background: wheat;
+	border-radius: 5px;	
+} 
+
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background-color: wheat;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover
+{
+	color: wheat;
+} 

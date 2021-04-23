@@ -1,0 +1,200 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(Backgrounds/Header.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+} 
+
+.menu-bar
+{
+	background: #8b7355;
+	text-align: center;
+} 	
+	
+.menu-bar ul
+{
+	display: inline-flex;
+	list-type: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width:120px;
+	margin: 15px;
+	padding: 5px;
+}
+ 
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+} 
+
+.active, .menu-bar ul li:hover
+{
+	background: wheat;
+	border-radius: 5px;	
+} 
+
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+
+.sub-menu-1
+{
+	display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background-color: wheat;
+	/*margin-top:15px;
+	margin-left:-15px;*/
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	/*margin: 10px;*/
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:hover
+{
+	color: wheat;
+} 
+
+.row
+{
+	display: flex;
+	height: 88%;
+	align-items: center;
+} 
+
+.col
+{
+	flex-basis: 50%;
+}
+
+.card
+{
+	width:150px;
+	height:150px;
+	display:inline-block;
+	border-radius:10px;
+	padding:15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin-top: 100px;
+	margin:10px 15px;
+	background-position:center;
+	background-size:cover;
+	transition: transform 0.5s;
+}
+
+h1
+{
+	color: wheat;
+	font-size: 40px;
+}
+
+p
+{
+	color: #fff;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.card1
+{
+	background-image: url(Pictures/Khail.jpg);
+}
+
+.active, .card1 ul li:hover
+{
+	text-decoration: none;
+} 
+
+.card2
+{
+	background-image: url(Pictures/Xiely.jpg);
+}
+
+.active, card2 ul li:hover
+{
+	text-decoration: none;
+} 
+
+.card3
+{
+	background-image: url(Pictures/Franz.jpg);
+}
+
+.active, card3 ul li:hover
+{
+	text-decoration: none;
+} 
+
+.card4
+{
+	background-image: url(Pictures/Jeremy.jpg);
+}
+
+.active, card4 ul li:hover
+{
+	text-decoration: none;
+} 
+
+.card5
+{
+	background-image: url(Pictures/Justin.jpg);
+}
+
+.active, card5 ul li:hover
+{
+	text-decoration: none;
+} 
+
+.card:hover
+{
+	transform: translateY(-10px);
+}
+
+h5
+{
+	color: wheat;
+	text-shadow: 0 0 5px #999;
+	padding: 15px 0;
+	font-size: 20px
+}
+
+.card p
+{
+	text-shadow:0 0 15px #000;
+	font-size: 10px;
+	color: #fff;
+} 

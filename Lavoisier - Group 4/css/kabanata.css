@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+#content[role="main"]{
+    margin: 13px auto 0;
+    padding: 24px 0 0 0;
+    width: 1020px;
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 0 25px rgb(26, 26, 26);
+    background-image: url(../images/Scroll.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Title h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    margin: 0 0 30px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+
+}
+.content{
+    font-size: 1.18em;
+    line-height: 1.55;
+    padding: 0 45px 0 45px;
+    text-indent: 50px
+}
+
+.Top h1 {
+    color: rgb(0, 0, 0);
+    font-family: Papyrus, fantasy; 
+    font-size: 70px;
+    font-weight: bold;
+    left: 40px;
+	margin-top: 45px;
+    position: absolute;
+    top: 30px;
+    text-shadow: 5px 5px white;
+}
+.Top h2 {
+    color: rgb(0, 0, 0);
+    font-family: Lucida Sans; 
+    font-style: italic;
+    left: 80px;
+	margin-top: 45px;
+    position: absolute;
+    top: 135px;
+}
+
+.NaBa{
+	
+	width: 100%;
+	height: 70px;
+	background-color: #282828;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+
+a:hover{
+	color: #F0c330;
+	transition: 0.5s;
+}
+
+.logo img{
+	float: left;
+	width: 75px;
+	height: auto;
+	margin-left: 5px;
+}
+
+.Blur{
+    height: 210px;
+    width: 100%;
+    background-image: url(../images/ancient.jpg);
+    background-size: cover;
+    filter: blur(8px);
+  -webkit-filter: blur(3px);
+}
+header .Top{
+    padding-top: 30px;
+}
+.background{
+    background-image: url(../images/ancient.jpg);
+    height: 100 vh;
+    background-size: cover;
+    background-position: center;
+	padding: 0 0 75px 0;
+}
+.Spacing{
+    margin-top: 45px;
+}

@@ -1,0 +1,57 @@
+
+  body{
+    background-color: silver;
+  }
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 50px;
+  }
+
+  .box h1{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.wrap{
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.4 s;
+  width: 300px;
+  background: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  margin: 10px;
+}
+@media screen and (max-width: 750px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

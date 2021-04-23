@@ -1,0 +1,322 @@
+@font-face{
+    font-family: RL;
+    src: url(../GroupI_Fonts/raleway-light_[allfont.net].ttf);
+}
+@font-face{
+    font-family: AS;
+    font-size: 2em;
+    src: url(../GroupI_Fonts/Snow\ White.ttf);
+}
+/**defaults
+*******************/
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transition-duration: .1s;
+    transition-delay: 0s;
+
+}
+img{
+    max-width: 100%;
+    padding: .7em;
+}
+body{
+    text-align: center;
+    background: #d8bfa7;
+    font-family: RL;  
+}
+/**defaults
+*******************/
+
+/*** navigation bar
+**********************/
+nav{
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    z-index: 2;
+    font-size: .96em;
+}
+nav ul{
+    background: #463b3b;
+}
+nav ul li{
+    display: block;
+    float: left;
+    padding: .7em 1em;
+    color: #fcc5a0;
+    width: fit-content;
+}
+nav li a{
+    color: #fcc5a0;
+}
+nav li:hover{
+    background: #252020;
+    outline: #d8bfa7 1.5px solid;
+    outline-offset: -.4em;
+    cursor: pointer;
+}
+nav .current{
+    background: #252020;
+}
+nav ul li ul{
+    background: #463b3b;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    margin-top: .7em;
+    left: 0;
+    display: none;
+    max-width: 320px;
+}
+nav ul li:hover > ul, nav ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+nav ul li ul li{
+    clear: both;
+    width: 94%;
+    margin: .2em 3%;
+    text-align: left;
+}
+/*** navigation bar
+**********************/
+
+/**header
+**********************/
+header{
+    width: 100%;
+    margin: 3.2em 0 0;
+}
+.header-title{
+    background-image: url(../GroupI_images/header.png);
+    background-size: 100% 100%;
+    background-position: center;
+
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em 2.8em;
+    font-family: AS;
+    font-size: 1.3em;
+}
+/**header
+**********************/
+
+main{
+    padding: 1em 2em;
+    display: grid;
+    gap: 1em;
+}
+/**Talambuhay Buod
+*********************/
+.Talambuhay-buod{
+    background-image: url(../GroupI_images/talambuhay\ body.jpg);
+    background-position: center left;
+    background-size: 103% 100%;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: .7em 2em 2em;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid #463b3b;
+}
+.Talambuhay-buod h1, .Talambuhay-Tauhan h1, .Talambuhay-libro h1{
+    background-image: url(../GroupI_images/Header\ bg.png);
+    background-size: 100% 100%;
+    padding: 1.2em 3em;
+
+    font-size: 1.3em;
+    margin: auto;
+    max-width: 90%;
+}
+.Talambuhay-buod-content{
+    height: fit-content;
+    margin: auto 0;
+    padding: .7em;
+    text-align: justify;
+    text-indent: 15px;
+}
+/**Talambuhay Buod
+*********************/
+
+/****Talambuhay Tauhan
+***************************/
+.Talambuhay-Tauhan, .Talambuhay-libro{
+    background-image: url(../GroupI_images/Tauhan_Jose.png);
+    background-size: 100% 100%;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 1.2em 1.3em 2em;
+    height: fit-content;
+    border-radius: 25px;
+    border: 2px solid #463b3b;
+}
+.Tauhan-Kabanata{
+    width: 50%;
+    margin: auto;
+    max-width: 350px;
+}
+.Talambuhay-Tauhan-Content{
+    width: 100%;
+    text-align: left;
+    padding: 1em 1.5em;
+}
+.topic{
+    font-size: 1.1em;
+}
+.topic-content{
+    padding-left: 10px;
+}
+/****Talambuhay Tauhan
+***************************/
+
+.Talambuhay-Tauhan-Content, .Talambuhay-buod-content{
+    background: #ffffffaf;
+    border-radius: 30px;
+}
+
+/***Mga Libro**********************/
+.Talambuhay-libro-content{
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: .5em 2em;
+}
+.Talambuhay-libro-content h2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #ffffff8a;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: .7em;
+}
+.Talambuhay-libro-pic{
+    height: 410px;
+    min-width: 310px;
+    overflow: visible;
+    padding: 0;
+}
+
+/**footer
+*********************************/
+footer{
+    margin-top: 1em;
+    background:#463b3b;
+    color: #fcc5a0;
+}
+footer h3{
+    margin: .7em 0;
+}
+footer ul li{
+    margin: .3em .5em;
+}
+/**footer
+*********************************/
+
+/***adjustments
+***********************************/
+@media (max-width: 375px){
+    nav{
+        font-size: 4.1vw;
+    }
+    nav ul li{
+        padding: .7em .6em;
+    }
+    header{
+        font-size: 4vw;
+    }
+    main{
+        font-size: 4vw;
+    }
+}
+@media (min-width: 376px) and (max-width:430px){
+    nav{
+        font-size: .85em;
+    }
+}
+@media (max-width: 430px){
+    .Talambuhay-buod{
+        background-color: #f8ebe7;
+        background-image: none;
+    }
+    footer{
+        font-size: 3.5vw;
+    }
+}
+@media (min-width: 376px) and (max-width: 580px){
+    main{
+        padding: 1em 2em;
+    }
+    .Talambuhay-buod, .Talambuhay-Tauhan{
+        max-width: 450px;
+        margin: .7em auto;
+    }
+}
+@media (min-width: 455px){
+    footer ul{
+        display: inline-block;
+    }
+}
+@media (min-width: 801px){
+    main{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 2.5vw 3vw;
+        padding: 1em 2em;
+    }
+    .Talambuhay-Tauhan{
+        height: 100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .Talambuhay-Tauhan, .Talambuhay-libro{
+        margin: auto 0;
+    }
+    .Talambuhay-buod-content{
+        font-size: 1.6vw;
+    }
+    .Talambuhay-buod{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 100%;
+    }
+    .Talambuhay-Tauhan-Content{
+        font-size: 1.35vw;
+    }
+    .Talambuhay-libro{
+        height: 100%;
+    }
+    .Talambuhay-buod h1, .Talambuhay-Tauhan h1, .Talambuhay-libro h1{
+        font-size: 1.8vw;
+    }
+}
+@media (min-width: 1025px){
+    .Talambuhay-buod h1, .Talambuhay-Tauhan h1, .Talambuhay-libro h1{
+        font-size: 1.7vw;
+    }
+    .Talambuhay-buod-content{
+        font-size: 1.5vw;
+    }
+    main{
+        grid-template-columns: 1.4fr 1fr;
+        padding: 2em;
+    }
+    footer, nav, .previous-next{
+        font-size: 1.3vw;
+    }
+    header{
+        margin-top: 4vw;
+        font-size: 1.7vw;
+    }
+}

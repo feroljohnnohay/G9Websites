@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    margin-bottom: 0px;
+}
+
+body{
+    background-image: url(TEAM-BG.jpg);
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+    text-shadow: 3px 3px black;
+    color: cornsilk;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.kabanata{
+   background-color: rgba(85, 84, 84, 0.2);
+   width: 69%;
+   margin-left: 20em;
+   border: cyan solid 1px;
+   border-radius: 3px;
+}
+.parts{
+    list-style:none;
+    margin: 15px;
+    padding: 15px;
+    line-height: 95px;
+}
+.parts li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 47.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    list-style: none;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.parts li a:hover{
+    text-align: center;
+    color: cyan;
+    border: cyan solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 47.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    z-index: 12;
+    text-align: left;
+}
+
+nav{
+    float: left; 
+    line-height: 80px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav a:hover{
+   text-align: center;
+    color: cyan;
+    border: cyan solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-right: 10px;
+    display: inline;
+    
+}

@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/bg.jpg);
+    background-position:center;
+    background-size:cover;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:5%;
+    box-sizing:border-box;
+    position: relative;
+}
+.container{
+    height: auto;
+    width:100%;
+    background-image:url(../images/paper.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    box-sizing:border-box;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    padding: 2% 0%;
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}    
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.nav-links2{
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.nav-links2 ul{
+    float: center;
+    list-style: none;
+}
+.nav-links2 ul li{
+   display: inline-block;
+   position:relative;
+}
+.nav-links2 ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+    text-decoration: none;
+    color: #000;
+    padding:6px 18.5px;
+    border: 1px solid #000;
+    transition: 0.6s ease;
+}
+.nav-links2 ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.nav-links2 ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    color: #fff;
+    font-size: 58px;
+}
+h2{
+    font-size: 29px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size:19px;
+}
+.p1{
+    text-indent: 50px;
+}
+.p2{
+    text-indent: 50px;
+}
+.p3{
+    text-indent: 50px;
+}
+.p4{
+    text-indent: 50px;
+}
+.tauhan{
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.up{
+    display:none;
+}
+
+@media only screen and (max-width:800px) {
+    body{
+        height: auto;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 6%;
+    }
+    .container{
+        height:auto;
+        padding-left:4%;
+        padding-right:4%;
+        padding-top: 2%;
+        padding-bottom: 12%;
+    }
+    .nav-links{
+        padding: 4% 0%;
+    }
+    .nav-links ul li{
+        padding:4px 8px;
+    }
+    .nav-links ul li a{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 24px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    p{
+        font-size:17.5px;
+    }
+    .p1{
+        text-indent: 25px;
+     }
+    .p2{
+        text-indent: 25px;
+    }
+    .nav-links2 ul li a{
+        font-size:12px;     
+        padding:5px 15px;
+        display:block;
+    }
+    .tauhan{
+        height: 140px;
+        width: 140px;
+    }
+    .up{
+       display:block;
+       padding-right:2%;
+       padding-bottom:2%;
+    }
+}
+@media only screen and (max-width:500px) {
+    body{
+        height:auto;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom:6%;
+    }
+    .container{
+        height:auto;
+        padding-left:4%;
+        padding-right:4%;
+        padding-top: 2%;
+        padding-bottom: 12%;
+    }
+    nav{
+        padding: 2% 0%;
+    }
+    .nav-links{
+        padding: 5% 0%;
+        text-align:center;
+    }
+    .nav-links ul li{
+        padding: 2px 6px;
+    }
+    .nav-links ul li a{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 39px;
+    }
+    h2{
+        font-size: 21px;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    p{
+        font-size:16.5px;
+    }
+   .p1{
+        text-indent: 20px;
+    }
+   .p2{
+        text-indent: 20px;
+    }
+    .nav-links2 ul li a{
+        font-size:11px;     
+        padding:4px 13px;
+        display:block;
+    }
+    .tauhan{
+        height: 120px;
+        width: 120px;
+    }
+    .up{
+       display:block;
+       padding-right:2%;
+       padding-bottom:2%;
+    }
+}

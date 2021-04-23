@@ -1,0 +1,152 @@
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.head {
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+header.head h2{
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+.paragraph p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.quote{
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.sino{
+    text-align: center;
+    color:#ffffff;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.chosen{
+    text-align: left;
+    color: #ffffff;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 30px;
+}
+.sinoto{
+    text-align:left;
+    color:black;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.reflect{
+    text-align: left;
+    color:#ffffff;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+.ireflect{
+    text-align:left;
+    color: black;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+  .body{
+    margin-left:25%;
+    padding:1px 16px;
+    height:100%;
+  }
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 215px;
+    height: 380px;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+ .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .desc p {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1px ;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background:#996D56 ;
+  background-size: cover;
+}
+.nb{
+  background-color: #cacbcc;
+}
+.wrapper{
+  display:flex;
+  position: relative;
+}
+.wrapper .sidebar{
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background: burlywood;
+  padding: 30px 0;
+}
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.wrapper .sidebar ul li{
+  padding: 15px;
+  text-align: center;
+}
+.wrapper .sidebar ul li a{
+  color:rgb(0, 0, 0);
+  display: block;
+}
+.wrapper .sidebar ul li :hover{
+  background:#996D56 ;
+  padding: 15px;
+}
+.wrapper .sidebar ul li :hover a{
+  color: #fff;
+  
+}

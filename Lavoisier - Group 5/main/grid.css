@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #fff;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	display: grid;
+	background-color: #fff;
+	grid-template-columns: repeat(auto-fit, minmax(280 px, 1px))
+}
+
+.container .box{
+	position: relative;
+	padding: 20px 40px 40px;
+	overflow: hidden;
+}

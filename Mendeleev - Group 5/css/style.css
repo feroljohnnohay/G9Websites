@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: rgb(46, 5, 5);
+    padding-top: 250px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text h5{
+    font-size: 30px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding:  12px 0; 
+    color: rgb(0, 0, 0);
+    border: .5px solid rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover {
+    color: rgb(255, 255, 255);
+}

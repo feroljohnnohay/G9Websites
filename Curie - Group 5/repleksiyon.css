@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Felipa);
+*{
+    margin: 0;
+    padding: 0;
+}
+.sub-header {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(73, 74, 82, 0.7),rgba(73,74,82,0.7)),url(dr.\ jose\ rizal.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 170px;
+    height: 6vh;
+}
+.navigation {
+    flex: 1;
+    text-align: right;
+}
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navigation ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: sienna;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navigation ul li:hover::after {
+    width: 100%;
+}
+.sub-header h1 {
+    font-size: 90px;
+    text-align: center;
+    color: rgb(207, 205, 205);
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+hr {
+    border-width: 3px;
+}
+#header-image {
+    zoom: 2;
+    border-radius: 1% 1% 0 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.up-hr {
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+.down-hr {
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+    margin-bottom: -50px;
+}
+.paragraph-container {
+    margin-top: 50px;
+}
+hr {
+    height: 90px;
+    color: rgb(255, 253, 253);
+    border-style: solid;
+    border-color: #181111;
+}
+li {
+    margin-bottom: 5px;
+}
+.contents {
+    background-color: #f4f4f4;
+}
+.center {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text-primary {
+    color: #d1a657;
+    font-family: 'Felipa', cursive, Arial;
+    font-size: 50px;
+    font-weight: normal;
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+html{
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html{
+    font-family: Georgia, serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    display: block;
+    scroll-behavior: smooth;
+}
+:after, :before{
+    box-sizing: border-box;
+}
+head{
+    display: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+/* --- */
+body{
+    position: relative;
+    background-image: url("https://cdn.wallpapersafari.com/96/5/mBPetX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    z-index: 1;
+}
+body::after{
+    content: '';
+    display: block;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+  /* --- */
+
+body{
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(27, 27, 27);
+    background-color: rgb(248, 247, 240);
+    range: url("https://www.anvilpublishing.com/anvil2012/wp-content/uploads/2016/09/Noli-Me-Tangere-Cover.jpg");
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    width: 1170px;
+}
+div{
+    display: block;
+}
+
+/* --- */
+#buod{
+    padding-top: 8.5em;
+}
+.content{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+section{
+    display: block;
+}
+.col-md, .col-lg{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-lg{
+    width: 50%;
+    float: left;
+}
+.content-item{
+    padding-right: 0px;
+    padding-left: 0px;
+    min-height: 570px !important;
+}
+.col-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.pan {
+    width: 570px;
+    height: 170px;
+    overflow: hidden;
+  }
+  img {
+    display: block;
+    max-width: 100% 
+  }
+  .pan > img {
+    max-width: none
+  }
+
+.background{
+    background-color: rgb(252, 248, 232);
+    padding: 55px 45px;
+}
+
+.section-title{
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.section-text{
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.background.content-item-1 {
+    padding: 60px 65px;
+}
+.crimson-text {
+    color: rgb(206, 20, 57);
+}
+.main-title{
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 1.4;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.text-center{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+h1,h2,h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+p{
+    margin: 0 0 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.linear{
+    background-image: linear-gradient(to right top, #e1e1e1, #e6e6e6, #ececec, #f1f1f1, #f7f7f7, #f7f7f7, #f8f8f8, #f8f8f8, #f3f3f3, #ededed, #e8e8e8, #e3e3e3);
+}
+.col-one-long{
+    padding-bottom: 100px;
+}
+
+/* --- */
+
+a{text-decoration: none;}
+ul{list-style: none;}
+
+.header-nav{
+    width: 100vw;
+    height: 90px;
+    background: rgb(240, 230, 205);
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+}
+
+.title{
+    font-family: Georgia, serif;
+    font-size: 3.8rem;
+
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 100px;
+}
+li{
+    padding: 10px 25px;
+}
+a{
+    color: black;
+    font-size: 1.55rem;
+}
+a:hover{
+    color: crimson;
+    transition: .3s ease all;
+}
+.img-cont{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: block;
+    width: 570px;
+    height:774px !important;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Brand */
+.brand{
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.brand-background{
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 100px;
+}
+.brand h1{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    white-space: nowrap; 
+    line-height: 1.2em;
+}
+.brand h1 span.one-line{
+    color: #ff9500;
+    display: inline;
+}
+/* End Brand */
+
